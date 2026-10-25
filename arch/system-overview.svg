@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1446" height="330" viewBox="0 0 1446 330" role="img" aria-label="系统架构概览（脱敏）">
+<style>
+  .t{font-family:-apple-system,'Noto Sans CJK SC',sans-serif}
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#94a3b8"/></marker></defs>
+  .h{font-size:15px;font-weight:600;fill:#0f172a}
+  .i{font-size:13px;fill:#334155}
+  .c{font-size:12px;fill:#64748b}
+  .box{fill:#f8fafc;stroke:#cbd5e1;stroke-width:1.2;rx:10}
+</style>
+<rect width="1446" height="330" fill="#ffffff"/>
+<text class="t h" x="28" y="30">智能公众号 — 架构概览（公开版）</text>
+<text class="t c" x="28" y="52">只画模块关系；不含地址、端口、主机名与部署方式</text>
+<rect class="box" x="28" y="78" width="210" height="132" rx="10"/>
+<text class="t h" x="44" y="108">客户端</text>
+<text class="t i" x="44" y="136">· Web（桌面）</text>
+<text class="t i" x="44" y="160">· Web（移动）</text>
+<text class="t i" x="44" y="184">· 桌面客户端</text>
+<path d="M244 144 h14" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#a)"/>
+<rect class="box" x="264" y="78" width="210" height="132" rx="10"/>
+<text class="t h" x="280" y="108">统一入口</text>
+<text class="t i" x="280" y="136">· 单一网关</text>
+<text class="t i" x="280" y="160">· 静态站分发</text>
+<text class="t i" x="280" y="184">· 反向代理</text>
+<path d="M480 144 h14" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#a)"/>
+<rect class="box" x="500" y="78" width="210" height="132" rx="10"/>
+<text class="t h" x="516" y="108">通讯平台</text>
+<text class="t i" x="516" y="136">· 消息服务</text>
+<text class="t i" x="516" y="160">· 会话/群组</text>
+<text class="t i" x="516" y="184">· 媒体对象存储</text>
+<path d="M716 144 h14" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#a)"/>
+<rect class="box" x="736" y="78" width="210" height="132" rx="10"/>
+<text class="t h" x="752" y="108">自动化</text>
+<text class="t i" x="752" y="136">· 通知机器人</text>
+<text class="t i" x="752" y="160">· 定时推送</text>
+<text class="t i" x="752" y="184">· 站点采集</text>
+<path d="M952 144 h14" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#a)"/>
+<rect class="box" x="972" y="78" width="210" height="132" rx="10"/>
+<text class="t h" x="988" y="108">管理与接口</text>
+<text class="t i" x="988" y="136">· 管理控制台</text>
+<text class="t i" x="988" y="160">· 对外投递 API</text>
+<text class="t i" x="988" y="184">· 教师侧接口</text>
+<path d="M1188 144 h14" stroke="#94a3b8" stroke-width="1.4" marker-end="url(#a)"/>
+<rect class="box" x="1208" y="78" width="210" height="132" rx="10"/>
+<text class="t h" x="1224" y="108">智能能力</text>
+<text class="t i" x="1224" y="136">· 知识库问答</text>
+<text class="t i" x="1224" y="160">· 内部助手</text>
+<text class="t i" x="1224" y="184">· 算力调度</text>
+<text class="t c" x="28" y="244">数据流向：客户端 → 统一入口 → 平台/自动化 → 管理与接口 → 智能能力；鉴权在读路径上分层，写操作全部留审计。</text>
+<text class="t c" x="28" y="266">署名：黄永恩（2025-03-12 — 至今） · 光电工程系 追光工作室 · 技术创新部</text>
+</svg>
